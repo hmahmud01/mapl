@@ -64,7 +64,8 @@ ul {
 
 .btn-theme-color {
     background-color: #ff2b4a;
-    background-color: #724ccc;
+    /* background-color: #724ccc; */
+    background-color: #656565;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
