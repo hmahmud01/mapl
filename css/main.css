@@ -355,7 +355,7 @@ button.btn.btn-theme-color:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../img/site/institue.jpg');
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 .institute-intro {
   margin-top: 45px;
@@ -396,6 +396,18 @@ button.btn.btn-theme-color:hover{
   width: 100%;
   margin-top: -21.5%;
   margin-left: -50%;
+}
+
+.institue-content {
+  position: relative;
+}
+
+.con-left {
+  position: absolute;
+}
+
+.left-img {
+  height: 500px;
 }
 
 /*=====================================================
@@ -1186,11 +1198,11 @@ button.btn.btn-theme-color:hover{
 
 
 .footer .copyright {
-    font-size: 12px;
+    font-size: 16px;
     color: #999;
     margin: 0;
     padding:20px 0;
-    letter-spacing: 6px;
+    /* letter-spacing: 6px; */
     border-top: 1px solid #EAEAEA;
 }
 .footer .copyright a {
