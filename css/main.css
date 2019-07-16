@@ -438,8 +438,24 @@ button.btn.btn-theme-color:hover{
   .clients-intro .buttons {
     padding-top: 14px;
   }
-  
 
+  .header {
+    margin: 30px;
+    padding: 35px;
+  }
+
+  .logo-size {
+    height: 72px;
+    margin: 20px;
+  }
+
+  .logo-size:hover {
+    box-shadow: #002453
+  }
+  
+  .content {
+    padding: 40px;
+  }
 
 /*=====================================================
     Expertise

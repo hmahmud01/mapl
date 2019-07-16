@@ -78,6 +78,7 @@
     height: 115.47px;
     background-color: #64c7cc;
     margin: 40px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
   
   .hexagon:before,
@@ -86,7 +87,7 @@
     position: absolute;
     width: 0;
     border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
+    border-right: 100px solid transparent;    
   }
   
   .hexagon:before {
