@@ -145,9 +145,28 @@ button.btn.btn-theme-color:hover{
   margin-right: 20px;
 }
 
-.site-header {
+/* .site-header {
+    top: 55px;
     padding: 40px 0;
     background-color: transparent;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+       -moz-transition: all 0.3s ease-in-out 0s;
+         -o-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+} */
+.top-nav {    
+    padding: 20px;
+    background-color: #fff;
+    /* height: 55px; */
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.site-header {
+    /* top: 55px; */
+    padding: 18px 0;
+    background-color: #ffffff8a;
     -webkit-transition: all 0.3s ease-in-out 0s;
        -moz-transition: all 0.3s ease-in-out 0s;
          -o-transition: all 0.3s ease-in-out 0s;
@@ -155,7 +174,9 @@ button.btn.btn-theme-color:hover{
 }
 
 .site-header.fixed {
-    background-color: rgba(0,0,0,.6);
+    /* background-color: rgba(0,0,0,.6); */
+    /* margin-top: 5px; */
+    background-color: rgb(255, 255, 255, 0.8);
     padding: 15px 0;
 }
 
@@ -196,7 +217,8 @@ button.btn.btn-theme-color:hover{
 }
 
 .toggle-btn .icon-bar {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #000;
     display: block;
     height: 2px;
     margin-bottom: 5px;
@@ -254,7 +276,8 @@ button.btn.btn-theme-color:hover{
 }
 
 .site-header .navbar-nav > li > a {
-    color: #fff;
+    /* color: #fff; */
+    color: #000;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -345,6 +368,57 @@ button.btn.btn-theme-color:hover{
   height: 3px;
   background-color: white;
 }
+
+/*=====================================================
+    About
+======================================================*/
+
+.about {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url('../img/site/about.jpg');
+    background-size: cover;
+  }
+  .about-intro {
+    margin-top: 45px;
+  }
+  
+  .about-intro h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #444;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .about-intro h5 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 12px 0;
+    color: #777;
+  }
+
+  .about-para{
+      margin-top: 25px;
+  }
+  .about-intro p {
+    color: #666;
+  }
+  .about-intro .divider {
+    display: block;
+    margin: 20px 0px;
+    width: 150px;
+    height: 2px;
+    background-color: #FF2B4A;
+  }
+  
+  .about-intro .buttons {
+    padding-top: 14px;
+  }
 
 /*=====================================================
     Institute
@@ -626,7 +700,7 @@ button.btn.btn-theme-color:hover{
     About
 ======================================================*/
 
-.about {
+/* .about {
     background: #F7F7F7;
     padding-top: 100px;
 }
@@ -663,7 +737,7 @@ button.btn.btn-theme-color:hover{
 
 .about-intro .buttons {
     padding-top: 14px;
-}
+} */
 
 
 /*=====================================================
@@ -1238,6 +1312,9 @@ button.btn.btn-theme-color:hover{
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+    .top-nav {
+        height: auto;
+    }
     .site-header .navbar-collapse {
         margin: 0;
         opacity: 1;
@@ -1255,7 +1332,8 @@ button.btn.btn-theme-color:hover{
         background-color: transparent !important;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #fff;
+        background-color: #000;
+        /* background-color: #fff; */
     }
 
     .banner-content h1{
@@ -1268,7 +1346,9 @@ button.btn.btn-theme-color:hover{
     }
 
     .site-header .navbar-collapse{
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.2);
+        /* background: rgba(0, 0, 0, 0.8); */
+
     }
     .site-header.fixed .navbar-collapse{
         background: transparent;

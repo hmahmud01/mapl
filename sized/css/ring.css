@@ -1,0 +1,102 @@
+.donut-ring {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.ring {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.ring.red {
+    top: 0;
+    left: 0;
+    background-color: red;    
+    opacity: 0;
+    border-radius: 100% 0 0 0;
+}
+
+.ring.blue {
+    top: 0;
+    right: 0;
+    background-color: blue;
+    opacity: 0;
+    border-radius: 0 100% 0 0;
+}
+
+.ring.orange {
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    opacity: 0;
+    border-radius: 0 0 0 100%;
+}
+
+.ring.green {
+    bottom: 0;
+    right: 0;
+    background-color: green;
+    border-radius: 0 0 100% 0;
+}
+
+.cutout {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+
+/* polygon shape for the image transformation for clients section */
+.polygon-content-height{
+    height: 500px;
+}
+
+
+
+.polygon {
+    float: left;
+    shape-outside: polygon(0px 0px, 0px 500px, 37.33% 99.64%, 496px 0px);
+    clip-path: polygon(0px 0px, 0px 500px, 37.33% 99.64%, 496px 0px);
+    /* shape-outside: polygon(0 0, 0 300px, 200px 300px);
+    clip-path: polygon(0 0, 0 300px, 200px 300px); */
+    height: 500px;
+    width: 500px;
+    background-image: url(../img/site/clients.jpg);
+  }
+
+  .hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    background-color: #64c7cc;
+    margin: 40px 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;    
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 57.74px solid #64c7cc;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 57.74px solid #64c7cc;
+  }
