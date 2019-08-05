@@ -4,7 +4,7 @@
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #64c7cc;
+    background-color: #C3E9F6;
     margin: 40px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
@@ -20,13 +20,13 @@
   
   .hexagon:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #64c7cc;
+    border-bottom: 57.74px solid #C3E9F6;
   }
   
   .hexagon:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #64c7cc;
+    border-top: 57.74px solid #C3E9F6;
   }
 
   .hexagon:hover {
@@ -40,7 +40,7 @@
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #52de72;
+    background-color: #C3F2EC;
     margin: 40px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
@@ -56,13 +56,13 @@
   
   .hexagon-2:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #52de72;
+    border-bottom: 57.74px solid #C3F2EC;
   }
   
   .hexagon-2:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #52de72;
+    border-top: 57.74px solid #C3F2EC;
   } 
 
   .hexagon-2:hover {
@@ -76,7 +76,7 @@
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #a1c29f;
+    background-color: #FDF8DB;
     margin: 40px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }  
@@ -92,13 +92,13 @@
   
   .hexagon-3:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #a1c29f;
+    border-bottom: 57.74px solid #FDF8DB;
   }
   
   .hexagon-3:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #a1c29f;
+    border-top: 57.74px solid #FDF8DB;
   }
 
   .hexagon-3:hover {
@@ -112,7 +112,7 @@
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #d84ab9;
+    background-color: #FFCBCD;
     margin: 40px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
@@ -128,13 +128,13 @@
   
   .hexagon-4:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #d84ab9;
+    border-bottom: 57.74px solid #FFCBCD;
   }
   
   .hexagon-4:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #d84ab9;
+    border-top: 57.74px solid #FFCBCD;
   }
 
   .hexagon-4:hover {
@@ -184,7 +184,7 @@
     position: relative;
     width: 200px; 
     height: 115.47px;
-    background-color: #9363d1;
+    background-color: #F8F8F8;
     margin: 40px 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.6);
   }
@@ -200,13 +200,13 @@
   
   .hexagon-6:before {
     bottom: 100%;
-    border-bottom: 57.74px solid #9363d1;
+    border-bottom: 57.74px solid #F8F8F8;
   }
   
   .hexagon-6:after {
     top: 100%;
     width: 0;
-    border-top: 57.74px solid #9363d1;
+    border-top: 57.74px solid #F8F8F8;
   }
 
   .hexagon-6:hover {
